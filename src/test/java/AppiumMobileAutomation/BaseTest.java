@@ -4,6 +4,8 @@ import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URISyntaxException;
+import java.util.HashMap;
+import java.util.Map;
 
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -24,10 +26,15 @@ public class BaseTest {
 
 		//code to start appium service without manual intervention
 
+		// Solution to resolve start appium via code
+		Map<String,String> evt = new HashMap<String,String>(System.getenv());
+		evt.put("ANDROID_HOME", "/Users/karishmakate/Library/Android/sdk");
+		evt.put("JAVA_HOME", "/Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home");
+		
 		service =new AppiumServiceBuilder().withAppiumJS(new File("//usr//local//lib//node_modules//appium//build//lib//main.js"))
-				.withIPAddress("127.0.0.1").usingPort(4723).build();
+				.withIPAddress("127.0.0.1").usingPort(4723).withEnvironment(evt).build();
 
-		//service.start();
+		service.start();
 		UiAutomator2Options option = new UiAutomator2Options();
 		option.setDeviceName("emulator-5554");
 		option.setApp("//Users//karishmakate//Appium//AppiumTesting//src//test//java//resources//ApiDemos-debug.apk");
@@ -39,7 +46,7 @@ public class BaseTest {
 	@AfterClass
 	public void tearDown() {
 		driver.quit();
-		//service.stop();
+		service.stop();
 
 	}
 }
