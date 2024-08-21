@@ -13,9 +13,7 @@ import org.testng.annotations.Test;
 import com.google.common.collect.ImmutableMap;
 
 import io.appium.java_client.AppiumBy;
-import io.appium.java_client.MobileBy;
-import io.appium.java_client.android.AndroidDriver;
-import org.openqa.selenium.remote.DesiredCapabilities;
+
 
 
 public class LongPress extends BaseTest {
@@ -27,14 +25,12 @@ public class LongPress extends BaseTest {
 	ConfigureService();
 	
 	// Long press code
-	driver.findElement(By.xpath("//*[contains(@text,'Views')]")).click();
-    driver.findElement(MobileBy.AndroidUIAutomator(
+    driver.findElement(AppiumBy.androidUIAutomator(
             "new UiScrollable(new UiSelector().scrollable(true).instance(0))" +
             ".scrollIntoView(new UiSelector().textContains(\"Views\").instance(0))"
         )).click();
 
 
-	//driver.findElement(AppiumBy.accessibilityId("Views")).click();
 	
 	Thread.sleep(6000);
 	driver.findElement(By.xpath("//android.widget.TextView[@text='Expandable Lists']")).click();

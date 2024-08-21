@@ -1,88 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-16T00:12:26 IST" name="Default suite" finished-at="2024-08-16T00:12:38 IST" duration-ms="12041">
+  <suite started-at="2024-08-21T23:47:09 IST" name="Default suite" finished-at="2024-08-21T23:47:39 IST" duration-ms="30479">
     <groups>
     </groups>
-    <test started-at="2024-08-16T00:12:26 IST" name="Default test" finished-at="2024-08-16T00:12:38 IST" duration-ms="12041">
-      <class name="AppiumMobileAutomation.LongPress">
-        <test-method is-config="true" signature="ConfigureService()[pri:0, instance:AppiumMobileAutomation.LongPress@117159c0]" started-at="2024-08-16T00:12:26 IST" name="ConfigureService" finished-at="2024-08-16T00:12:32 IST" duration-ms="6146" status="PASS">
+    <test started-at="2024-08-21T23:47:09 IST" name="Default test" finished-at="2024-08-21T23:47:39 IST" duration-ms="30479">
+      <class name="AppiumMobileAutomation.ScrollDemo">
+        <test-method is-config="true" signature="ConfigureService()[pri:0, instance:AppiumMobileAutomation.ScrollDemo@543295b0]" started-at="2024-08-21T23:47:09 IST" name="ConfigureService" finished-at="2024-08-21T23:47:15 IST" duration-ms="6513" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConfigureService -->
-        <test-method signature="LongPressGesture()[pri:0, instance:AppiumMobileAutomation.LongPress@117159c0]" started-at="2024-08-16T00:12:32 IST" name="LongPressGesture" finished-at="2024-08-16T00:12:38 IST" duration-ms="5753" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.23.1', revision: '656257d8e9'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.5', java.version: '21.0.3'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [0c21e196-e7b3-4c02-935f-f58fe36dc50d, findElement {value=//*[contains(@text,'Views')], using=xpath}]
-Capabilities {appium:app: //Users//karishmakate//Appi..., appium:appPackage: io.appium.android.apis, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: //Users//karishmakate//Appi..., automationName: UIAutomator2, deviceName: emulator-5554, platformName: ANDROID}, appium:deviceApiLevel: 34, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1280, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2, appium:platformVersion: 14, appium:statBarHeight: 48, appium:takesScreenshot: true, appium:viewportRect: {height: 1232, left: 0, top: 48, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 0c21e196-e7b3-4c02-935f-f58fe36dc50d]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.23.1', revision: '656257d8e9'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.5', java.version: '21.0.3'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [0c21e196-e7b3-4c02-935f-f58fe36dc50d, findElement {value=//*[contains(@text,'Views')], using=xpath}]
-Capabilities {appium:app: //Users//karishmakate//Appi..., appium:appPackage: io.appium.android.apis, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: //Users//karishmakate//Appi..., automationName: UIAutomator2, deviceName: emulator-5554, platformName: ANDROID}, appium:deviceApiLevel: 34, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1280, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2, appium:platformVersion: 14, appium:statBarHeight: 48, appium:takesScreenshot: true, appium:viewportRect: {height: 1232, left: 0, top: 48, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 0c21e196-e7b3-4c02-935f-f58fe36dc50d
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at AppiumMobileAutomation.LongPress.LongPressGesture(LongPress.java:27)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="ScrollDemoTest()[pri:0, instance:AppiumMobileAutomation.ScrollDemo@543295b0]" started-at="2024-08-21T23:47:15 IST" name="ScrollDemoTest" finished-at="2024-08-21T23:47:39 IST" duration-ms="23950" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LongPressGesture -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:AppiumMobileAutomation.LongPress@117159c0]" started-at="2024-08-16T00:12:38 IST" name="tearDown" finished-at="2024-08-16T00:12:38 IST" duration-ms="121" status="PASS">
+        </test-method> <!-- ScrollDemoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AppiumMobileAutomation.ScrollDemo@543295b0]" started-at="2024-08-21T23:47:39 IST" name="tearDown" finished-at="2024-08-21T23:47:39 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- AppiumMobileAutomation.LongPress -->
+      </class> <!-- AppiumMobileAutomation.ScrollDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
