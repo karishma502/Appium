@@ -14,9 +14,6 @@ public class WifiSettingsName extends BaseTest {
 	@Test
 	public void WifiSetting() throws MalformedURLException, URISyntaxException, InterruptedException {
 		
-
-		//Start appium 
-		ConfigureService();
 		
 		//code to start wifi
 		driver.findElement(AppiumBy.accessibilityId("Preference")).click();
@@ -30,7 +27,6 @@ public class WifiSettingsName extends BaseTest {
 		driver.findElement(By.id("android:id/edit")).sendKeys("KarishmaWifi");
 		driver.findElement(By.id("android:id/button1")).click();
 		
-		tearDown();
 
 	}
 }

@@ -20,29 +20,30 @@ public class ScrollDemo extends BaseTest {
 
 	@Test
 	public void ScrollDemoTest() throws MalformedURLException, URISyntaxException, InterruptedException {
-		
-	//start appium
-	ConfigureService();
-	
-	//Scroll to element
 
-    
-    driver.findElement(AppiumBy.androidUIAutomator(
-            "new UiScrollable(new UiSelector().scrollable(true).instance(0))" +
-            ".scrollIntoView(new UiSelector().textContains(\"Views\").instance(0))"
-        )).click();
-    Thread.sleep(3000);
-    
-    driver.findElement(AppiumBy.androidUIAutomator(
-            "new UiScrollable(new UiSelector().scrollable(true).instance(0))" +
-            ".scrollIntoView(new UiSelector().textContains(\"WebView\").instance(0))"
-        )).click();
-    Thread.sleep(4000);
 
-	
-	//stop appium
-	tearDown();
-	
-	
+
+		//Scroll to element
+
+		driver.findElement(AppiumBy.androidUIAutomator(
+				"new UiScrollable(new UiSelector().scrollable(true).instance(0))" +
+						".scrollIntoView(new UiSelector().textContains(\"Views\").instance(0))"
+				)).click();
+		Thread.sleep(3000);
+
+		// Where to scroll known prior
+
+		driver.findElement(AppiumBy.androidUIAutomator(
+				"new UiScrollable(new UiSelector().scrollable(true).instance(0))" +
+						".scrollIntoView(new UiSelector().textContains(\"WebView\").instance(0))"
+				)).click();
+		Thread.sleep(4000);
+
+
+		//no prior Idea
+		scrollToEndAction();
+
+
+
 	}
 }

@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-21T23:47:09 IST" name="Default suite" finished-at="2024-08-21T23:47:39 IST" duration-ms="30479">
+  <suite started-at="2024-08-22T00:38:13 IST" name="Default suite" finished-at="2024-08-22T00:38:33 IST" duration-ms="19615">
     <groups>
     </groups>
-    <test started-at="2024-08-21T23:47:09 IST" name="Default test" finished-at="2024-08-21T23:47:39 IST" duration-ms="30479">
-      <class name="AppiumMobileAutomation.ScrollDemo">
-        <test-method is-config="true" signature="ConfigureService()[pri:0, instance:AppiumMobileAutomation.ScrollDemo@543295b0]" started-at="2024-08-21T23:47:09 IST" name="ConfigureService" finished-at="2024-08-21T23:47:15 IST" duration-ms="6513" status="PASS">
+    <test started-at="2024-08-22T00:38:13 IST" name="Default test" finished-at="2024-08-22T00:38:33 IST" duration-ms="19615">
+      <class name="AppiumMobileAutomation.SwipeDemo">
+        <test-method is-config="true" signature="ConfigureService()[pri:0, instance:AppiumMobileAutomation.SwipeDemo@74d1dc36]" started-at="2024-08-22T00:38:13 IST" name="ConfigureService" finished-at="2024-08-22T00:38:19 IST" duration-ms="5300" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConfigureService -->
-        <test-method signature="ScrollDemoTest()[pri:0, instance:AppiumMobileAutomation.ScrollDemo@543295b0]" started-at="2024-08-21T23:47:15 IST" name="ScrollDemoTest" finished-at="2024-08-21T23:47:39 IST" duration-ms="23950" status="PASS">
+        <test-method signature="SwipeTest()[pri:0, instance:AppiumMobileAutomation.SwipeDemo@74d1dc36]" started-at="2024-08-22T00:38:19 IST" name="SwipeTest" finished-at="2024-08-22T00:38:29 IST" duration-ms="10091" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ScrollDemoTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:AppiumMobileAutomation.ScrollDemo@543295b0]" started-at="2024-08-21T23:47:39 IST" name="tearDown" finished-at="2024-08-21T23:47:39 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- SwipeTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AppiumMobileAutomation.SwipeDemo@74d1dc36]" started-at="2024-08-22T00:38:29 IST" name="tearDown" finished-at="2024-08-22T00:38:33 IST" duration-ms="4192" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- AppiumMobileAutomation.ScrollDemo -->
+      </class> <!-- AppiumMobileAutomation.SwipeDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
