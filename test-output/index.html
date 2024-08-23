@@ -103,7 +103,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="AppiumMobileAutomation.AltersDemo" class="method navigator-link" hash-for-method="DragDropTest">DragDropTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="AppiumMobileAutomation.AlertDemo" class="method navigator-link" hash-for-method="alertTest">alertTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -121,21 +121,21 @@
           <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">AppiumMobileAutomation.AltersDemo</span>
+              <span class="class-name">AppiumMobileAutomation.AlertDemo</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="DragDropTest">
-                  </a> <!-- DragDropTest -->
-                  <span class="method-name">DragDropTest</span>
+                  <a name="alertTest">
+                  </a> <!-- alertTest -->
+                  <span class="method-name">alertTest</span>
                   <div class="stack-trace">org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
 Build info: version: &apos;4.23.1&apos;, revision: &apos;656257d8e9&apos;
 System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.6.1&apos;, java.version: &apos;21.0.3&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [40b17292-35f1-4d05-ba35-1db3074521c2, findElement {value=App, using=accessibility id}]
+Command: [6c4e25e4-291b-403e-b995-d19c7b00a75d, findElement {value=App, using=accessibility id}]
 Capabilities {appium:app: //Users//karishmakate//Appi..., appium:appPackage: io.appium.android.apis, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: //Users//karishmakate//Appi..., automationName: UIAutomator2, deviceName: emulator-5554, platformName: ANDROID}, appium:deviceApiLevel: 34, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1280, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2, appium:platformVersion: 14, appium:statBarHeight: 48, appium:takesScreenshot: true, appium:viewportRect: {height: 1232, left: 0, top: 48, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 40b17292-35f1-4d05-ba35-1db3074521c2
+Session ID: 6c4e25e4-291b-403e-b995-d19c7b00a75d
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -149,7 +149,7 @@ Session ID: 40b17292-35f1-4d05-ba35-1db3074521c2
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at AppiumMobileAutomation.AltersDemo.DragDropTest(AltersDemo.java:30)
+	at AppiumMobileAutomation.AlertDemo.alertTest(AlertDemo.java:17)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -185,7 +185,7 @@ Session ID: 40b17292-35f1-4d05-ba35-1db3074521c2
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/db/f3sl0m5d2l5c5624j1q55ff40000gn/T/testng-eclipse-2045435047/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/db/f3sl0m5d2l5c5624j1q55ff40000gn/T/testng-eclipse--1598756582/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -194,7 +194,7 @@ Session ID: 40b17292-35f1-4d05-ba35-1db3074521c2
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;AppiumMobileAutomation.AltersDemo&quot;/&gt;
+      &lt;class name=&quot;AppiumMobileAutomation.AlertDemo&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -236,14 +236,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'DragDropTest')
-data.setCell(0, 2, 'AppiumMobileAutomation.AltersDemo')
-data.setCell(0, 3, 25);
+data.setCell(0, 1, 'alertTest')
+data.setCell(0, 2, 'AppiumMobileAutomation.AlertDemo')
+data.setCell(0, 3, 26);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 25 ms</span>
+              <span class="suite-total-time">Total running time: 26 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -269,7 +269,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">AppiumMobileAutomation.AltersDemo</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">AppiumMobileAutomation.AlertDemo</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">ConfigureService</span>
                 <span class="method-start">0 ms</span>
@@ -277,12 +277,12 @@ return data;
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">DragDropTest</span>
-                <span class="method-start">4760 ms</span>
+                <span class="method-name">alertTest</span>
+                <span class="method-start">4806 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">4788 ms</span>
+                <span class="method-start">4835 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

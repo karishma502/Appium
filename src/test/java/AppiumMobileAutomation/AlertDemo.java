@@ -45,7 +45,7 @@ public class AlertDemo extends BaseTest {
 
 		// check progress Dialogue
 
-		driver.findElement(AppiumBy.accessibilityId("Progress dialog"));
-		Thread.sleep(3000);
+		driver.findElement(AppiumBy.accessibilityId("Progress dialog")).click();
+		Thread.sleep(8000);
 	}
 }
