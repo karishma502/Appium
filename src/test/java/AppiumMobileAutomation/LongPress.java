@@ -20,16 +20,12 @@ public class LongPress extends BaseTest {
 
 	@Test
 	public void LongPressGesture() throws MalformedURLException, URISyntaxException, InterruptedException {
-		
-	//start appium
-	ConfigureService();
-	
+
 	// Long press code
     driver.findElement(AppiumBy.androidUIAutomator(
             "new UiScrollable(new UiSelector().scrollable(true).instance(0))" +
             ".scrollIntoView(new UiSelector().textContains(\"Views\").instance(0))"
         )).click();
-
 
 	
 	Thread.sleep(6000);
@@ -43,9 +39,7 @@ public class LongPress extends BaseTest {
 	
 	String menuText =driver.findElement(By.id("android:id/title")).getText();
 	Assert.assertEquals(menuText, "Sample menu");
-	
-	//stop appium
-	tearDown();
+
 	
 	
 	}
