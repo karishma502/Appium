@@ -42,7 +42,9 @@ public class BaseTest {
 		service.start();
 		UiAutomator2Options option = new UiAutomator2Options();
 		option.setDeviceName("emulator-5554");
-		option.setApp("//Users//karishmakate//Appium//AppiumTesting//src//test//java//resources//ApiDemos-debug.apk");
+		//option.setApp("//Users//karishmakate//Appium//AppiumTesting//src//test//java//resources//ApiDemos-debug.apk");
+		option.setApp("//Users//karishmakate//Documents//android//APK//ApiDemos-debug.apk");
+
 		 driver = new AndroidDriver(new URI("http://127.0.0.1:4723").toURL(), option);
 
 

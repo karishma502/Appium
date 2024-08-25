@@ -2,34 +2,34 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-24T00:27:24 IST" name="Default suite" finished-at="2024-08-24T00:27:32 IST" duration-ms="8297">
+  <suite started-at="2024-08-25T22:00:41 IST" name="Default suite" finished-at="2024-08-25T22:00:53 IST" duration-ms="11474">
     <groups>
     </groups>
-    <test started-at="2024-08-24T00:27:24 IST" name="Default test" finished-at="2024-08-24T00:27:32 IST" duration-ms="8297">
-      <class name="AppiumMobileAutomation.AlertDemo">
-        <test-method is-config="true" signature="ConfigureService()[pri:0, instance:AppiumMobileAutomation.AlertDemo@74d1dc36]" started-at="2024-08-24T00:27:24 IST" name="ConfigureService" finished-at="2024-08-24T00:27:29 IST" duration-ms="4802" status="PASS">
+    <test started-at="2024-08-25T22:00:41 IST" name="Default test" finished-at="2024-08-25T22:00:53 IST" duration-ms="11474">
+      <class name="AppiumMobileAutomation.Miscellanous">
+        <test-method is-config="true" signature="ConfigureService()[pri:0, instance:AppiumMobileAutomation.Miscellanous@74d1dc36]" started-at="2024-08-25T22:00:41 IST" name="ConfigureService" finished-at="2024-08-25T22:00:49 IST" duration-ms="7548" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConfigureService -->
-        <test-method signature="alertTest()[pri:0, instance:AppiumMobileAutomation.AlertDemo@74d1dc36]" started-at="2024-08-24T00:27:29 IST" name="alertTest" finished-at="2024-08-24T00:27:29 IST" duration-ms="26" status="FAIL">
+        <test-method signature="MiscellanousTest()[pri:0, instance:AppiumMobileAutomation.Miscellanous@74d1dc36]" started-at="2024-08-25T22:00:49 IST" name="MiscellanousTest" finished-at="2024-08-25T22:00:49 IST" duration-ms="47" status="FAIL">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
 Build info: version: '4.23.1', revision: '656257d8e9'
 System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6.1', java.version: '21.0.3'
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [6c4e25e4-291b-403e-b995-d19c7b00a75d, findElement {value=App, using=accessibility id}]
-Capabilities {appium:app: //Users//karishmakate//Appi..., appium:appPackage: io.appium.android.apis, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: //Users//karishmakate//Appi..., automationName: UIAutomator2, deviceName: emulator-5554, platformName: ANDROID}, appium:deviceApiLevel: 34, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1280, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2, appium:platformVersion: 14, appium:statBarHeight: 48, appium:takesScreenshot: true, appium:viewportRect: {height: 1232, left: 0, top: 48, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 6c4e25e4-291b-403e-b995-d19c7b00a75d]]>
+Command: [45e758cb-6459-482e-804c-75825490dcdd, findElement {value=Preference, using=accessibility id}]
+Capabilities {appium:app: //Users//karishmakate//Docu..., appium:appPackage: io.appium.android.apis, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: //Users//karishmakate//Docu..., automationName: UIAutomator2, deviceName: emulator-5554, platformName: ANDROID}, appium:deviceApiLevel: 34, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2220, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 14, appium:statBarHeight: 66, appium:takesScreenshot: true, appium:viewportRect: {height: 2154, left: 0, top: 66, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 45e758cb-6459-482e-804c-75825490dcdd]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
 Build info: version: '4.23.1', revision: '656257d8e9'
 System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6.1', java.version: '21.0.3'
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [6c4e25e4-291b-403e-b995-d19c7b00a75d, findElement {value=App, using=accessibility id}]
-Capabilities {appium:app: //Users//karishmakate//Appi..., appium:appPackage: io.appium.android.apis, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: //Users//karishmakate//Appi..., automationName: UIAutomator2, deviceName: emulator-5554, platformName: ANDROID}, appium:deviceApiLevel: 34, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1280, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2, appium:platformVersion: 14, appium:statBarHeight: 48, appium:takesScreenshot: true, appium:viewportRect: {height: 1232, left: 0, top: 48, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 6c4e25e4-291b-403e-b995-d19c7b00a75d
+Command: [45e758cb-6459-482e-804c-75825490dcdd, findElement {value=Preference, using=accessibility id}]
+Capabilities {appium:app: //Users//karishmakate//Docu..., appium:appPackage: io.appium.android.apis, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: //Users//karishmakate//Docu..., automationName: UIAutomator2, deviceName: emulator-5554, platformName: ANDROID}, appium:deviceApiLevel: 34, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2220, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 14, appium:statBarHeight: 66, appium:takesScreenshot: true, appium:viewportRect: {height: 2154, left: 0, top: 66, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 45e758cb-6459-482e-804c-75825490dcdd
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -43,7 +43,7 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at AppiumMobileAutomation.AlertDemo.alertTest(AlertDemo.java:17)
+at AppiumMobileAutomation.Miscellanous.MiscellanousTest(Miscellanous.java:21)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -75,12 +75,12 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- alertTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:AppiumMobileAutomation.AlertDemo@74d1dc36]" started-at="2024-08-24T00:27:29 IST" name="tearDown" finished-at="2024-08-24T00:27:32 IST" duration-ms="3453" status="PASS">
+        </test-method> <!-- MiscellanousTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AppiumMobileAutomation.Miscellanous@74d1dc36]" started-at="2024-08-25T22:00:49 IST" name="tearDown" finished-at="2024-08-25T22:00:53 IST" duration-ms="3854" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- AppiumMobileAutomation.AlertDemo -->
+      </class> <!-- AppiumMobileAutomation.Miscellanous -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
