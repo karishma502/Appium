@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="AppiumMobileAutomation.Miscellanous">
+      <class name="AppiumMobileAutomation.eCommerce_tc_1">
         <methods>
           <include name="tearDown"/>
+          <include name="fillForm"/>
           <include name="ConfigureService"/>
-          <include name="MiscellanousTest"/>
         </methods>
-      </class> <!-- AppiumMobileAutomation.Miscellanous -->
+      </class> <!-- AppiumMobileAutomation.eCommerce_tc_1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

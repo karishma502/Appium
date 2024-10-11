@@ -33,11 +33,7 @@ public class ScrollDemo extends BaseTest {
 
 		// Where to scroll known prior
 
-		driver.findElement(AppiumBy.androidUIAutomator(
-				"new UiScrollable(new UiSelector().scrollable(true).instance(0))" +
-						".scrollIntoView(new UiSelector().textContains(\"WebView\").instance(0))"
-				)).click();
-		Thread.sleep(4000);
+
 
 
 		//no prior Idea
